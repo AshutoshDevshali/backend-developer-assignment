@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <%  allUsers.forEach(function(i){ %>
+        <li>id: <%= i.id %></li>
+        <li>first_name: <%= i.first_name %></li>
+        <li>last_name: <%= i.last_name %></li>
+        <li>company_name: <%= i.company_name %></li>
+        <li>city: <%= i.city %></li>
+        <li>state: <%= i.state %></li>
+        <li>zip: <%= i.zip %></li>
+        <li>email: <%= i.email %></li>
+        <li>web: <%= i.web %></li>
+        <li>age: <%= i.age %></li>
+      <%  }) %>
+    </ul>
+
+  </body>
+</html>
